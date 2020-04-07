@@ -1,20 +1,24 @@
 {
-    "name": "lyt8384/pingpp-laravel5-plus",
-    "description": "Simple Pingpp wrapper for Laravel 5",
+    "name": "monyxie/pingpp-laravel6",
+    "description": "Simple Pingpp wrapper for Laravel 6",
     "license": "MIT",
-    "keywords": ["laravel", "laravel 5", "Pingpp", "Pingxx" ],
-    "homepage": "https://github.com/lyt8384/pingpp-laravel5-plus",
+    "keywords": ["laravel", "laravel 6", "Pingpp", "Pingxx" ],
+    "homepage": "https://github.com/monyxie/pingpp-laravel6-plus",
     "authors": [
         {
             "name": "lyt8384",
             "email": "lyt8384@gmail.com"
+        },
+        {
+            "name": "monyxie",
+            "email": "monyxie@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "laravel/framework": "5.*",
+        "laravel/framework": "6.*",
         "ext-curl": "*",
-        "illuminate/support": "~5.0",
+        "illuminate/support": "6.*",
         "pingplusplus/pingpp-php": ">=2.1.2"
     },
     "autoload": {
